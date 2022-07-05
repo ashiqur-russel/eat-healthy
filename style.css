@@ -5,11 +5,9 @@
 }
 /*  first section */
 
-.section{
-    width: 100%;
-    height: 100vh;
+section{
 
- 
+    height: 100vh;
 }
 
 .navbar{
@@ -45,7 +43,7 @@
 .banner{
     display: flex;
     padding: 50px;
-    margin-left: 30px;
+   
 }
 
 
@@ -65,7 +63,8 @@
 
  .head h1{
     font-size: 50px;
-    text-indent: 1%;
+    letter-spacing: 3px;
+    line-height: 70px;
  }
 
  .head span{
@@ -87,4 +86,54 @@
     padding: 20px;
 }
 
+.head p{
+    margin-top: 30px;
+    color: rgb(99, 98, 98);
+    font-size: 18px;
+    font-display: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ .about-me{
+    background-image: url('./images/shapes/7.png');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;           
+
+    overflow: hidden;
+    object-fit: contain;
+    height: 70vh;
  
+}
+.about-me-head{
+    margin-right: 20px;
+    padding: 20px;
+   
+    width: 80%;
+}
+.about-me-head h1 {
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(104, 104, 104);
+    margin-bottom: 30px;
+}
+.about-me-head p {
+   line-height: 30px;
+   color: rgb(99, 98, 98);
+   font-size: 18px;
+   font-display: justify;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-about{
+    margin-left: 5px;
+}
+.image-person{
+    height: 100%;
+    width: 100%;
+   object-fit: contain;
+   margin-top: 50px;
+   margin-left: 40px;
+}
